@@ -1,0 +1,638 @@
+body{
+    margin:0 ;
+    padding: 0;
+    border: none;
+}
+#top{
+    width: 100%;
+    height: 30px;
+    background-color:#eeeeee;
+}
+#city{
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-left: 25px;
+    background-color:#eeeeee ;
+    cursor: pointer;
+    display: inline-block;
+}
+#city:hover{
+    background-color: white;
+}
+.glyphicon-search{
+    line-height: 30px;
+}
+.area{
+    color: gray;
+    line-height: 20px;
+}
+.glyphicon-play{
+    transform:rotate(90deg)
+}
+#top_list{
+    width: 520px;
+    color: #999;
+    line-height: 16px;
+    font-size: 12px;
+    float: right;
+    margin-top: 8px;
+    margin-bottom: 0;
+    text-align: center;
+    position: relative;
+}
+#top_list li{
+    list-style-type: none;
+    float: left;
+    width: 80px;
+    height: 16px;
+    border-left: 1px solid;
+    cursor: pointer;
+}
+.top_list_li_color:hover{
+    color: gold;
+    text-decoration: underline;
+}
+#Orchard_announcement{
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 284px;
+    z-index: 1;
+    box-shadow: 2px 4px 6px #000;
+    display: none;
+    margin-top: 5px;
+}
+#Orchard_list{
+    padding: 0;
+    list-style-type: none;
+
+}
+#Orchard_list li{
+    clear: both;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px dashed gainsboro;
+    line-height: 30px;
+}
+#Orchard_list li:hover{
+    color: #00CC66;
+}
+.Orchard_color{
+    background-color: red;
+    border-radius: 5px;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    line-height: 20px;
+    color: white;
+}
+.Orchard_box{
+    margin-top: 110px;
+    text-align: center;
+    color: forestgreen;
+}
+.glyphicon-phone,.glyphicon-user{
+    color:#65a031 ;
+}
+#phone_box{
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 4px 6px #000;
+    position: absolute;
+    background-color: white;
+    z-index:1;
+    right: 125px;
+    top: 15px;
+    display: none;
+}
+#phone_box .ios{
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+#phone_box .Android{
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+.qr_box{
+    width: 100%;
+    height: 150px;
+    padding: 0;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+#WeChat{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 175px;
+    top: 200px;
+}
+/*--------------------------------头部------------------------------------------------*/
+#Home{
+    width: 100%;
+    height: 121px;
+    position: relative;
+}
+.logo{
+    width: 500px;
+    height: 121px;
+    float: left;
+}
+#list{
+    width: 500px;
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: -150px;
+    padding: 0;
+}
+#list li{
+    width: 90px;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: #999;
+    border-left: 1px solid #999;
+    text-align: center;
+    cursor: pointer;
+}
+#list li:hover{
+    background-color: #eeeeee;
+}
+#home_search{
+    margin-top: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.foot_list:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#shopping_cart{
+    width: 40px;
+    height: 45px;
+    float: right;
+    background-image: url("Home_img/icons.png");
+    background-position: -502px -369px;
+    position: absolute;
+    top: 44px;
+    right: 82px;
+    padding-left: 10px;
+    padding-top: 21px;
+}
+.shopping_cart{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url("Home_img/icons.png");
+    background-position: -530px -7px;
+    cursor: pointer;
+}
+#number_cart{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    right: 17px;
+    top: 2px;
+}
+#Home_slide{
+    width: 90px;
+    height: 2px;
+    background-color: #00CC66;
+    position: absolute;
+    left: 350px;
+    bottom: 1px;
+    z-index: 1;
+}
+#search_box{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 1;
+    right: 150px;
+    bottom: -154px;
+    display: none;
+}
+#search_box_list{
+    padding: 0;
+    list-style-type: none;
+}
+#search_box_list li{
+    cursor: pointer;
+}
+/*--------------------------------轮播图----------------------------------*/
+.show{
+    width: 100%;
+    height: 399px;
+    overflow: hidden;
+    position: relative;
+}
+.show_list{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.show li{
+    list-style-type: none;
+    float: left;
+}
+.show_list02 {
+    list-style-type: none;
+    position: absolute;
+    left: 519px;
+    top: 363px;
+    margin: 0;
+}
+.show_list02 li{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #00CC66;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.active{
+    background-color: gold;
+}
+/*------------------------商品展示1-------------------------------*/
+.sale_price{
+    width: 1304px;
+    height: 195px;
+    margin: 0 auto;
+    border-bottom: 2px solid gray;
+}
+#sale_price{
+    width: 1500px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#sale_price li{
+    width: 300px;
+    height: 140px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.new_product{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-color: #00CC66;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+.discount{
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+/*---------------------商品展示2--------------------------------*/
+.goods_list{
+    width: 1304px;
+    height: 675px;
+    margin: 0 auto;
+    border-bottom: 2px solid gray;
+}
+.good_top{
+    width: 1304px;
+    background-color: gainsboro;
+    height: 42px;
+    margin-top: 10px;
+}
+.goods_table{
+    width: 1304px;
+    height: 633px;
+}
+.goods_table td{
+    position: relative;
+    cursor: pointer;
+}
+.show_goods{
+    width: 250px;
+    height: 270px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.sale_goods{
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    bottom:0;
+}
+.cart_logo{
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background: url("Home_img/icons.png") no-repeat ;
+    background-position: -517px -243px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/*---------------------商品展示3--------------------------------*/
+.goods_list1{
+    width: 1304px;
+    height: 400px;
+    margin: 0 auto;
+    border-bottom: 2px solid gray;
+}
+.goods_table1{
+    width: 1304px;
+    height: 315px;
+}
+.goods_table1 td{
+    position: relative;
+    cursor: pointer;
+}
+/*-------------底部---------------*/
+.bottom{
+    width: 100%;
+    height: 465px;
+    padding-top: 50px;
+}
+.serve{
+    width: 1304px;
+    height: 105px;
+    margin: 0 auto;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+}
+.serve_list{
+    list-style-type: none;
+    margin: 0;
+    width: 1304px;
+}
+.serve_list li{
+    width: 25%;
+    height: 60px;
+    float: left;
+    border-left: 2px solid darkgray;
+    margin-top: 23px;
+}
+.serve_list_p1{
+    background: url("Home_img/icon.png")no-repeat 40px 0;
+}
+.serve_list_p2{
+    background: url("Home_img/icon.png")no-repeat 40px -60px;
+}
+.serve_list_p3{
+    background: url("Home_img/icon.png")no-repeat 40px -120px;
+}
+.serve_list_p4{
+    background: url("Home_img/icon.png")no-repeat 40px -180px;
+}
+.relation{
+    width: 1304px;
+    height: 198px;
+    margin: 0 auto;
+    border-bottom: 1px solid gainsboro;
+}
+.bottom_logo{
+    width: 330px;
+    height: 198px;
+    float: left;
+    margin-left: 125px;
+    margin-right: 50px;
+}
+.QR_code{
+    width: 140px;
+    height: 198px;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+}
+.after_sales_service{
+    width: 420px;
+    height: 198px;
+    float: left;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.font-color{
+    color: darkgray;
+    font-size: 20px;
+    margin-left:80px; ;
+}
+.after_sales_service_list{
+    list-style-type:none;
+    width: 420px;
+    padding: 0;
+}
+.after_sales_service_list li{
+    float: left;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.li_list{
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 21px;
+    line-height: 46px;
+    color: darkgray;
+}
+.li_list li:hover{
+    cursor: pointer;
+    color: #3d8a3c;
+    text-decoration: underline;
+}
+.copyright{
+    width: 420px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.kf{
+    width: 35px;
+    height: 109px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background: url("Home_img/kf.png")no-repeat;
+}
+#to_top{
+    width: 35px;
+    height: 35px;
+    margin-top: 73px;
+}
+/*---------------头部地址栏--------------------*/
+#location{
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 5;
+    left: 20px;
+    top: 30px;
+    display: none;
+}
+.location_hot{
+    width: 200px;
+    height: 20px;
+    background-color: gainsboro;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+.location_hot li{
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.location_hot li:hover{
+    color: #3d8a3c;
+    text-decoration: underline;
+}
+.first_list{
+    padding: 0;
+}
+.first_list_li{
+    width: 230px;
+    list-style-type: none;
+    line-height: 37px;
+    border-bottom: 1px solid darkgray;
+    text-indent: 2em;
+}
+.second_list{
+    display: none;
+}
+.second_list_li{
+    width: 180px;
+    list-style-type: none;
+    text-indent: 2em;
+    font-size: 14px;
+}
+.glyphicon-chevron-right,.glyphicon-chevron-down{
+    float: right;
+    line-height: 37px;
+}
+/*---------遮罩层------------*/
+#shade{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+}
+/*-------------------首页购物车----------------*/
+#Home_cart_box{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 5px solid rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 4;
+    left: 422px;
+    top: 180px;
+    display: none;
+}
+.Home_cart_box_top{
+    width: 100%;
+    height: 30px;
+    background-color: gainsboro;
+}
+.glyphicon-remove{
+    float: right;
+    font-size: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.cart_hint{
+    display: inline-block;
+    width: 65px;
+    height: 70px;
+    background: url("Home_img/icons.png")no-repeat -5px -246px;
+    margin-top: 45px;
+    margin-left: 86px;
+}
+.cart_hints{
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    color: grey;
+    font-size: 30px;
+    position: absolute;
+    top: 90px;
+    left: 170px;
+}
+#number_hints{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: grey;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+#money_hints{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: grey;
+}
+#To_shopping{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    border: 1px solid forestgreen;
+    border-radius: 5px;
+    color: forestgreen;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 75px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+#To_accounts{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background-color: #00CC66;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+

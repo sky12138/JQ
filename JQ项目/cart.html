@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天天果园—水果网购首选品牌</title>
+    <link href="dist/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="dist/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet"/>
+    <link href="Home_css.css" type="text/css" rel="stylesheet"/>
+    <link href="cart.css" type="text/css" rel="stylesheet"/>
+    <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="cart.js" type="text/javascript"></script>
+    <script src="Home_js.js" type="text/javascript"></script>
+</head>
+<body>
+<!--头部-->
+<div id="Cart_top"></div>
+<div id="Cart_logoBox">
+    <img src="Home_img/02.png"/>
+    <div class="list_step">
+        <span class="step1">1</span>
+        <span class="step2">2</span>
+        <span class="step3">3</span>
+    </div>
+</div>
+<!--body-->
+<div id="Cart_body1" >
+    <div>
+        <span class="glyphicon glyphicon-shopping-cart"></span>
+        <span class="myCart">我的购物车</span>
+    </div>
+    <span id="keepMove">继续逛逛》</span>
+</div>
+<div id="Cart_body2">
+    <div id="Car_listTop">
+        <ul>
+            <li>商品</li>
+            <li>规格</li>
+            <li>单价</li>
+            <li>数量</li>
+            <li>总计</li>
+            <li>操作</li>
+        </ul>
+    </div>
+    <div class="Cart_settlement" style="display: none">
+        <div class="Commodity_Name">
+            <img src="Home_img/goods01.jpg" style="width: 100px;height: 100px;">
+            <span class="Name">新疆白金密瓜</span>
+        </div>
+        <div class="Commodity_Norms">1个</div>
+        <div class="Commodity_Price">39.90</div>
+        <div class="Commodity_Number">
+            <span class="glyphicon glyphicon-minus"></span>
+            <input class="Number_change" type="text" value="1"/>
+            <span class="glyphicon glyphicon-plus"></span>
+        </div>
+        <div class="Commodity_total">39.9</div>
+        <div class="Commodity_handle">
+            <span class="Delete">删除</span>
+        </div>
+    </div>
+</div>
+<div class="Promotion_ad">
+    <span class="pro_span">促</span>
+    【上海自建】满79元加7.9元换购时蔬一份，还差39.10元，去凑单
+</div>
+<div class="cart_ClearingBox">
+    <div class="cart-payBox">
+                <span>
+                    已选择
+                    <em>0</em>件
+                    商品  |  订单金额
+                </span>
+        <span class="all-order">￥<span>0</span></span>
+        <a id="btngopay">去结算</a>
+    </div>
+</div>
+<div class="tow_box">
+    <div class="box boxActive" style="border-right: 1px solid gray">
+        你最近浏览过的商品
+    </div>
+    <div class="box">
+        你可能感兴趣的商品
+    </div>
+</div>
+<div class="bottom_history">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <ul class="history_ul"></ul>
+    <ul class="history_ul2">
+        <li>
+            <img src="Home_img/goods20.jpg"/>
+        </li>
+        <li>
+            <img src="Home_img/goods15.jpg"/>
+        </li>
+        <li>
+            <img src="Home_img/goods16.jpg"/>
+        </li>
+        <li>
+            <img src="Home_img/goods31.jpg"/>
+        </li>
+        <li>
+            <img src="Home_img/goods13.jpg"/>
+        </li>
+    </ul>
+</div>
+<!--地址栏-->
+<div id="Cart_location"></div>
+<!--果园公告-->
+<div id="Cart_announcement"></div>
+<!--手机果园-->
+<div id="Cart_QR"></div>
+<!--底部-->
+<div id="Cart_bottom"></div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天天果园—水果网购首选品牌</title>
+    <link href="dist/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="dist/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet"/>
+    <link href="Home_css.css" type="text/css" rel="stylesheet"/>
+    <link href="register.css" type="text/css" rel="stylesheet"/>
+    <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="register.js" type="text/javascript"></script>
+    <script src="Home_js.js" type="text/javascript"></script>
+</head>
+<body>
+<!--头部top-->
+<div id="register_top"></div>
+<!--果园公告-->
+<div id="register_announcement"></div>
+<!--手机果园-->
+<div id="register_QR"></div>
+<!--logo-->
+<div id="register_logo">
+    <img src="Home_img/02.png" style="cursor: pointer"/>
+</div>
+<!--注册主体-->
+<div id="register_body">
+    <div id="register_img">
+        <span class="vip">会员登录</span>
+        <img src="register_img/big_img.jpg">
+        <div class="vip_box" id="enter_vipEnter">注册会员></div>
+    </div>
+    <div id="information">
+        <ul id="enter">
+            <li>
+                <div class="information_box">手机号</div>
+                <input type="text" id="enter_name"/>
+                <span id="bcz">*该用户名不存在</span>
+            </li>
+            <li>
+                <div class="information_box">密码</div>
+                <input type="password" id="enter_key" placeholder="请输入密码"/>
+                <div id="recently_number"></div>
+            </li>
+        </ul>
+        <div id="enter_checkbox">
+            <input type="checkbox">记住密码
+        </div>
+        <div id="enter_shortcut">
+            <span>忘记密码？</span><span id="fist_move">快捷登录</span>
+        </div>
+        <div id="enter_finish">登录</div>
+        <div id="enter_vip_move">会员注册</div>
+    </div>
+    <!--手机快捷登录-->
+    <div id="fist_move_box">
+        <ul id="fist_move_box_ul">
+            <li class="information_li">
+                <div class="information_box">手机号</div>
+                <input type="text" id="information_name"/>
+                <span class="register_reminder"></span>
+            </li>
+            <li class="information_li">
+                <div class="information_box">验证码</div>
+                <input type="text" id="information_code"/>
+                <span class="register_reminder"></span>
+                <span class="show_code">1234</span>
+                <span class="glyphicon glyphicon-repeat"></span>
+            </li>
+            <li class="information_li">
+                <div class="information_box">手机验证码</div>
+                <span class="register_reminder"></span>
+                <span class="show_code_phone">发送手机验证码</span>
+                <input type="text" id="information_phon"/>
+            </li>
+        </ul>
+        <div id="fist_enter_finish">快捷登录</div>
+        <div id="fist_enter_vip_move">会员注册</div>
+    </div>
+</div>
+<!--地址栏-->
+<div id="register_location"></div>
+<!--底部-->
+<div id="register_bottom"></div>
+</body>
+</html>

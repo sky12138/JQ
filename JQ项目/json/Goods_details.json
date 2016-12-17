@@ -1,0 +1,282 @@
+[
+  {
+    "id":1,
+    "commodity": {
+      "name":"新疆白金蜜瓜",
+      "price":39.90,
+      "norms":"2个"
+    }
+  },
+  {
+    "id":2,
+    "commodity": {
+      "name": "琯溪白玉蜜柚",
+      "price": 39.90,
+      "norms":"2个"
+    }
+  },
+  {
+    "id":3,
+    "commodity": {
+      "name": "美国有籽红提",
+      "price": 58.00,
+      "norms":"2斤"
+    }
+  },
+  {
+    "id":4,
+    "commodity": {
+      "name": "丽江雪桃",
+      "price": 88.00,
+      "norms":"3个"
+    }
+  },
+  {
+    "id":5,
+    "commodity": {
+      "name": "泰国椰青",
+      "price": 49.90,
+      "norms":"4个"
+    }
+  },
+  {
+    "id":6,
+    "commodity": {
+      "name": "泰国山竹",
+      "price": 99.00,
+      "norms":"4斤"
+    }
+  },
+  {
+    "id":7,
+    "commodity": {
+      "name": "新西兰柠檬",
+      "price": 29.00,
+      "norms":"8个"
+    }
+  },
+  {
+    "id":8,
+    "commodity": {
+      "name": "精选百香果",
+      "price": 19.90,
+      "norms":"6个"
+    }
+  },
+  {
+  "id":9,
+  "commodity": {
+    "name": "进口香蕉",
+    "price":49.90 ,
+    "norms":"4斤"
+  }
+ },
+  {
+    "id":10,
+    "commodity": {
+      "name": "泰国金枕头榴莲(中)",
+      "price":118.00 ,
+      "norms":"1~2个"
+    }
+  },
+  {
+    "id":11,
+    "commodity": {
+      "name": "琯溪红玉蜜柚",
+      "price":49.90,
+      "norms":"2个"
+    }
+  },
+  {
+    "id":12,
+    "commodity": {
+      "name": "秋甜脆柿",
+      "price":29.90,
+      "norms":"2斤"
+    }
+  },
+  {
+    "id":13,
+    "commodity": {
+      "name": "美国无籽青提",
+      "price":118.0,
+      "norms":"4斤"
+    }
+  },
+  {
+    "id":14,
+    "commodity": {
+      "name": "台湾文旦",
+      "price":58.00,
+      "norms":"3个"
+    }
+  },
+  {
+  "id":15,
+  "commodity": {
+    "name": "精选波姬无花果",
+    "price":29.90,
+    "norms":"4个"
+  }
+ },
+  {
+    "id":16,
+    "commodity": {
+      "name": "优选东海带鱼段",
+      "price":29.90,
+      "norms":"400g"
+    }
+  },
+  {
+    "id":17,
+    "commodity": {
+      "name": "越南巴沙鱼柳",
+      "price":23.90,
+      "norms":"300~400g"
+    }
+  },
+  {
+    "id":18,
+    "commodity": {
+      "name": "巴西精选牛腩块",
+      "price":37.80,
+      "norms":"500g"
+    }
+  },
+  {
+    "id":19,
+    "commodity": {
+      "name": "日式素鲍鱼",
+      "price":19.00,
+      "norms":"240g"
+    }
+  },
+  {
+    "id":20,
+    "commodity": {
+      "name": "新西兰小牛脊骨",
+      "price":29.90,
+      "norms":"500g"
+    }
+  },
+  {
+    "id":21,
+    "commodity": {
+      "name": "苏食童子鸡",
+      "price":29.00,
+      "norms":"1.5斤"
+    }
+  },
+  {
+    "id":22,
+    "commodity": {
+      "name": "南翔小笼包",
+      "price":9.90,
+      "norms":"180g"
+    }
+  },
+  {
+    "id":23,
+    "commodity": {
+      "name": "江西原生态散养土鸡蛋",
+      "price":29.90,
+      "norms":"10个"
+    }
+  },
+  {
+    "id":24,
+    "commodity": {
+      "name": "东海小黄鱼",
+      "price":19.90,
+      "norms":"300g"
+    }
+  },
+  {
+    "id":25,
+    "commodity": {
+      "name": "冻半壳扇贝",
+      "price":42.00,
+      "norms":"6个"
+    }
+  },
+  {
+    "id":26,
+    "commodity": {
+      "name": "福聚礼篮",
+      "price":68.00,
+      "norms":"礼篮"
+    }
+  },
+  {
+    "id":27,
+    "commodity": {
+      "name": "真心祝福水果礼篮",
+      "price":358.00,
+      "norms":"礼篮"
+    }
+  },
+  {
+    "id":28,
+    "commodity": {
+      "name": "欢乐时光水果礼篮",
+      "price":180.00,
+      "norms":"礼篮"
+    }
+  },
+  {
+    "id":29,
+    "commodity": {
+      "name": "富贵吉祥水果礼篮",
+      "price":880.00,
+      "norms":"礼篮"
+    }
+  },
+  {
+    "id":30,
+    "commodity": {
+      "name": "深情厚意水果礼篮",
+      "price":580.00,
+      "norms":"礼篮"
+    }
+  },
+  {
+    "id":31,
+    "commodity": {
+      "name": "海陆【家宴】生鲜礼盒",
+      "price":328.00,
+      "norms":"礼盒"
+    }
+  },
+  {
+    "id":32,
+    "commodity": {
+      "name": "海陆【盛宴】生鲜礼盒",
+      "price":468.00,
+      "norms":"礼盒"
+    }
+  },
+  {
+    "id":33,
+    "commodity": {
+      "name": "情真意切水果礼篮",
+      "price":238.00,
+      "norms":"礼篮"
+    }
+  },
+  {
+    "id":34,
+    "commodity": {
+      "name": "绿野仙踪礼篮",
+      "price":580.00,
+      "norms":"礼篮"
+    }
+  },
+  {
+    "id":35,
+    "commodity": {
+      "name": "低糖营养鲜果礼盒",
+      "price":118.00,
+      "norms":"礼盒"
+    }
+  }
+]

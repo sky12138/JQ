@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">-->
+    <title>天天果园—水果网购首选品牌</title>
+    <link href="dist/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="dist/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet"/>
+    <link href="Home_css.css" type="text/css" rel="stylesheet"/>
+    <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="Home_js.js" type="text/javascript"></script>
+</head>
+<body>
+<!--头部-->
+<div id="top">
+    <div id="city">
+        <span class="glyphicon glyphicon-search" style="color: #00CC66"></span>
+        <span class="area">上海</span>
+        <span class="glyphicon glyphicon-play"></span>
+    </div>
+    <span style="color: gray;line-height: 20px;">满百包邮(环郊内)
+        <span id="xyd" style="color:#65a031">星夜达</span>
+    </span>
+    <ul id="top_list">
+        <li style="width: 116px;border-left: none">
+            <span class="top_list_li_color">[登录]</span>，
+            <span class="top_list_li_color">[注册有惊喜]</span></li>
+        <li id="li_notice">
+            果园公告
+            <div id="Orchard_announcement">
+                <ul id="Orchard_list">
+                    <li>
+                        全仓2000元充值活动调整公告
+                        <span class="Orchard_color">New</span>
+                    </li>
+                    <li>
+                        全仓2000元充值活动调整公告
+                        <span class="Orchard_color">New</span>
+                    </li>
+                    <li>
+                        全仓充值活动调整公告
+                    </li>
+                </ul>
+                <div class="Orchard_box">
+                    查看更多》
+                </div>
+            </div>
+        </li>
+        <li>
+            <span class="top_list_li_color">券卡兑换</span>
+        </li>
+        <li id="phone_li">
+            <span class="glyphicon glyphicon-phone" id="li_phone"></span>
+            手机果园
+            <div id="phone_box">
+                <div class="qr_box" style="border-bottom: 1px solid gainsboro">
+                    <p>下载果园APP，即享果园特价商品。</p>
+                    <img src="Home_img/qr2.jpg " style="width: 46%;height: 72%;"/>
+                    <img src="Home_img/812858003.jpg " class="ios"/>
+                    <img src="Home_img/813781524.jpg " class="Android"/>
+                </div>
+                <div class="qr_box">
+                    <img src="Home_img/qr1.jpg " style="width: 46%;height: 72%;"/>
+                    <div id="WeChat">
+                        <span style="color: #00CC66">关注果园微信</span><br/>
+                        <span>掌握实时信息</span>
+                    </div>
+
+                </div>
+            </div>
+        </li>
+        <li style="width: 116px">
+            <span class="glyphicon glyphicon-user"></span>
+            <b>400-720-0770</b>
+        </li>
+    </ul>
+</div>
+<div id="Home">
+    <div class="logo">
+        <img src="Home_img/02.png" style="height: 110px;"/>
+    </div>
+    <div class="logo">
+        <ul id="list">
+            <li style="border-left: none">首页<br/>Home</li>
+            <li>水果<br/>Fruit</li>
+            <li>生鲜<br/>Fresh</li>
+            <li>礼品<br/>Gift</li>
+            <li>会员中心<br/>VIP Club</li>
+        </ul>
+    </div>
+    <div style="width: 300px;height: 121px;float: right">
+        <input type="text" id="home_search" value="金奇异果" placeholder="请输入关键字">
+        <div style="width: 171px;height: 30px;overflow: hidden;line-height: 30px; color: #999;">
+            热门：
+            <span class="foot_list">柚子 大闸蟹 奇异果 山竹</span>
+        </div>
+        <div id="shopping_cart">
+           <span class="shopping_cart"></span>
+           <span id="number_cart">0</span>
+       </div>
+        <div id="search_box">
+            <ul id="search_box_list">
+                <li>金奇异果</li>
+                <li>柚子</li>
+                <li>大闸蟹</li>
+                <li>澳洲牛排</li>
+                <li>鲍鱼</li>
+                <li>深海带鱼</li>
+                <li>山竹</li>
+                <li>进口香蕉</li>
+                <li>椰子</li>
+                <li>大芒果</li>
+            </ul>
+        </div>
+    </div>
+    <div id="Home_slide"></div>
+</div>
+<!--轮播图-->
+<div class="show">
+    <ul class="show_list">
+        <li>
+            <img src="Home_img/show01.jpg"/>
+        </li>
+        <li>
+            <img src="Home_img/show02.jpg"/>
+        </li>
+        <li>
+            <img src="Home_img/show03.jpg"/>
+        </li>
+        <li>
+            <img src="Home_img/show04.jpg"/>
+        </li>
+        <li>
+            <img src="Home_img/show05.jpg"/>
+        </li>
+        <li>
+            <img src="Home_img/show06.jpg"/>
+        </li>
+    </ul>
+    <ul class="show_list02" >
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<!--主体商品展示-->
+<div class="sale_price">
+    <ul id="sale_price">
+        <li>
+            <img src="Home_img/tj01.jpg"/>
+        </li>
+        <li>
+            <img src="Home_img/tj02.jpg"/>
+        </li>
+        <li>
+            <img src="Home_img/tj03.jpg"/>
+        </li>
+        <li>
+            <img src="Home_img/tj04.jpg"/>
+        </li>
+    </ul>
+</div>
+<div class="goods_list">
+    <div class="good_top">
+        <img src="Home_img/top1.png"/>
+        <span style="float: right;line-height: 42px;cursor: pointer">更多》》</span>
+    </div>
+    <table class="goods_table">
+        <tr>
+            <td>
+                <div class="show_goods" idName="1">
+                    <img src="Home_img/goods01.jpg">
+                    <span class="new_product">新品</span>
+                </div>
+                <div class="sale_goods">
+                    <span>新疆白金蜜瓜<br/>￥39.90/2个</span>
+                    <span class="cart_logo" id="1"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="2">
+                    <img src="Home_img/goods02.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 琯溪白玉蜜柚<br/>￥39.90/2个</span>
+                    <span class="cart_logo" id="2"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="3">
+                    <img src="Home_img/goods03.jpg">
+                    <span class="new_product">新品</span>
+                </div>
+                <div class="sale_goods">
+                    <span> 美国有籽红提<br/>￥58.00/2斤</span>
+                    <span class="cart_logo" id="3"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="4">
+                    <img src="Home_img/goods04 .jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 丽江雪桃<br/>￥88.00/3个</span>
+                    <span class="cart_logo" id="4"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="5">
+                    <img src="Home_img/goods05.jpg">
+                    <span class="discount">第二件9.9</span>
+                </div>
+                <div class="sale_goods">
+                    <span>泰国椰青<br/>￥49.90/4个</span>
+                    <span class="cart_logo" id="5"></span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="show_goods" idName="6">
+                    <img src="Home_img/goods06.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 泰国山竹<br/>￥99.00/4斤</span>
+                    <span class="cart_logo" id="6"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="7">
+                    <img src="Home_img/goods07.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span>新西兰柠檬<br/>￥29.00/8个</span>
+                    <span class="cart_logo" id="7"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="8">
+                    <img src="Home_img/goods08.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span>精选百香果<br/>￥19.90/6个</span>
+                    <span class="cart_logo" id="8"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="9">
+                    <img src="Home_img/goods09.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 进口香蕉<br/>￥49.90/4斤</span>
+                    <span class="cart_logo" id="9"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="10">
+                    <img src="Home_img/goods10.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span>泰国金枕头榴莲 (中)<br/>￥118.00/1~2个</span>
+                    <span class="cart_logo" id="10"></span>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="goods_list1">
+    <div class="good_top">
+        <img src="Home_img/top02.png"/>
+        <span style="float: right;line-height: 42px;cursor: pointer">更多》》</span>
+    </div>
+    <table class="goods_table1">
+        <tr>
+            <td>
+                <div class="show_goods" idName="11">
+                    <img src="Home_img/goods11.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 琯溪红玉蜜柚<br/>￥49.90/2个</span>
+                    <span class="cart_logo" id="11"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="12">
+                    <img src="Home_img/goods12.jpg">
+                    <span class="new_product">新品</span>
+                </div>
+                <div class="sale_goods">
+                    <span> 秋甜脆柿<br/>￥29.90/2斤</span>
+                    <span class="cart_logo" id="12"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="13">
+                    <img src="Home_img/goods13.jpg" >
+                    <span class="new_product">新品</span>
+                </div>
+                <div class="sale_goods">
+                    <span> 美国无籽青提<br/>￥118.0/4斤</span>
+                    <span class="cart_logo" id="13"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="14">
+                    <img src="Home_img/goods14.jpg">
+                    <span class="new_product">新品</span>
+                </div>
+                <div class="sale_goods">
+                    <span>  台湾文旦<br/>￥58.00/3个</span>
+                    <span class="cart_logo" id="14"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="15">
+                    <img src="Home_img/goods15.jpg">
+                    <span class="discount">第二件9.9</span>
+                </div>
+                <div class="sale_goods">
+                    <span>精选波姬无花果<br/>￥29.90/4个</span>
+                    <span class="cart_logo" id="15"></span>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="goods_list">
+    <div class="good_top">
+        <img src="Home_img/top03.png"/>
+        <span style="float: right;line-height: 42px;cursor: pointer">更多》》</span>
+    </div>
+    <table class="goods_table">
+        <tr>
+            <td>
+                <div class="show_goods" idName="16">
+                    <img src="Home_img/goods16.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span>优选东海带鱼段<br/>￥29.90/400g</span>
+                    <span class="cart_logo" id="16"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="17">
+                    <img src="Home_img/goods17.jpg">
+                    <span class="discount">第二件9.9</span>
+                </div>
+                <div class="sale_goods">
+                    <span> 越南巴沙鱼柳<br/>￥23.90/300~400</span>
+                    <span class="cart_logo" id="17"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="18">
+                    <img src="Home_img/goods18.jpg">
+                    <span class="discount">加5元换购</span>
+                </div>
+                <div class="sale_goods">
+                    <span> 巴西精选牛腩块<br/>￥37.80/500g</span>
+                    <span class="cart_logo" id="18"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="19">
+                    <img src="Home_img/goods19.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 日式素鲍鱼<br/>￥19.00/240g</span>
+                    <span class="cart_logo" id="19"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="20">
+                    <img src="Home_img/goods20.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span>新西兰小牛脊骨<br/>￥29.90/500g</span>
+                    <span class="cart_logo" id="20"></span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="show_goods" idName="21">
+                    <img src="Home_img/goods21.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 苏食童子鸡<br/>￥29.00/1.5斤</span>
+                    <span class="cart_logo" id="21"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="22">
+                    <img src="Home_img/goods22.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span>南翔小笼包<br/>￥9.90/180g</span>
+                    <span class="cart_logo" id="22"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="23">
+                    <img src="Home_img/goods23.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 江西原生态散养土鸡蛋<br/>￥29.90/10个</span>
+                    <span class="cart_logo" id="23"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="24">
+                    <img src="Home_img/goods24.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 东海小黄鱼<br/>￥19.90/300g</span>
+                    <span class="cart_logo" id="24"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="25">
+                    <img src="Home_img/goods25.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span>冻半壳扇贝<br/>￥42.00/6个</span>
+                    <span class="cart_logo" id="25"></span>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="goods_list" style="border-bottom: none">
+    <div class="good_top">
+        <img src="Home_img/top04.png"/>
+        <span style="float: right;line-height: 42px;cursor: pointer">更多》》</span>
+    </div>
+    <table class="goods_table">
+        <tr>
+            <td>
+                <div class="show_goods" idName="26">
+                    <img src="Home_img/goods26.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span>福聚礼篮<br/>￥68.00/礼篮</span>
+                    <span class="cart_logo" id="26"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="27">
+                    <img src="Home_img/goods27.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 真心祝福水果礼篮<br/>￥358/礼篮</span>
+                    <span class="cart_logo" id="27"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="28">
+                    <img src="Home_img/goods28.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 欢乐时光水果礼篮<br/>￥180.00/礼篮</span>
+                    <span class="cart_logo" id="28"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="29">
+                    <img src="Home_img/goods29.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 富贵吉祥水果礼篮<br/>￥880.00/礼篮</span>
+                    <span class="cart_logo" id="29"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="30">
+                    <img src="Home_img/goods29.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span>深情厚意水果礼篮<br/>￥580/礼篮</span>
+                    <span class="cart_logo" id="30"></span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="show_goods" idName="31">
+                    <img src="Home_img/goods31.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 海陆【家宴】生鲜礼盒<br/>￥328.00/礼盒</span>
+                    <span class="cart_logo" id="31"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="32">
+                    <img src="Home_img/goods32.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span>海陆【盛宴】生鲜礼盒<br/>￥468.00/礼盒</span>
+                    <span class="cart_logo" id="32"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="33">
+                    <img src="Home_img/goods33.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span>情真意切水果礼篮<br/>￥238.00/礼篮</span>
+                    <span class="cart_logo" id="33"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="34">
+                    <img src="Home_img/goods34.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span> 绿野仙踪礼篮<br/>￥580.00/礼篮</span>
+                    <span class="cart_logo" id="34"></span>
+                </div>
+            </td>
+            <td>
+                <div class="show_goods" idName="35">
+                    <img src="Home_img/goods35.jpg">
+                </div>
+                <div class="sale_goods">
+                    <span>低糖营养鲜果礼盒<br/>￥118.00/礼盒</span>
+                    <span class="cart_logo" id="35"></span>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<!--底部-->
+<div class="bottom">
+    <div class="serve">
+        <ul class="serve_list">
+            <li class="serve_list_p1" style="border-left: none"></li>
+            <li class="serve_list_p2"></li>
+            <li class="serve_list_p3"></li>
+            <li class="serve_list_p4"></li>
+        </ul>
+    </div>
+    <div class="relation">
+        <div class="bottom_logo">
+            <img src="Home_img/02.png"/>
+            <img src="Home_img/03.png" style="margin-left: 85px"/>
+            <div>
+                <span class="font-color">服务时间:</span>
+                <span style="color: black;font-size: 20px">08:00 - 22:00</span>
+            </div>
+        </div>
+        <div class="QR_code">
+            <img src="Home_img/qr1.jpg ">
+            <b>天天果园官方微信号</b>
+        </div>
+        <div class="QR_code">
+            <img src="Home_img/qr2.jpg ">
+            <b>天天果园APP</b>
+        </div>
+        <div class="after_sales_service">
+            <ul class="after_sales_service_list">
+                <li>购物指南</li>
+                <li>配送说明</li>
+                <li>售后服务</li>
+                <li>企业服务</li>
+            </ul>
+            <ul class="li_list">
+                <li>
+                    新用户注册
+                </li>
+                <li>在线下单</li>
+                <li>支付方式</li>
+            </ul>
+            <ul class="li_list">
+                <li>运费说明</li>
+                <li>运输方式</li>
+                <li>发票说明</li>
+            </ul>
+            <ul class="li_list">
+                <li>退换货说明</li>
+                <li>服务保障承诺</li>
+                <li>验货与签收</li>
+            </ul>
+            <ul class="li_list">
+                <li>企业订购</li>
+                <li>公司简介</li>
+                <li>定制专区</li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <p style="color: gray ;">版权所有 © 2015天天果园&nbsp;&nbsp;保留所有权利 | 沪ICP备12042163</p>
+        <span style="color: #00CC66">天天果园</span>
+        <span style="color: #00CC66">鲜果网购</span><br/>
+        <img src="Home_img/1426385613.gif"/>
+        <img src="Home_img/01975324577.png" style="width: 34px;height: 43px;"/>
+    </div>
+</div>
+<div class="kf">
+<div id="to_top"></div>
+</div>
+<!--地址栏-->
+<div id="location">
+    <div>
+        <span style="color: gainsboro;font-size: 15px;font-weight: bold">热门城市：</span>
+        <ul class="location_hot">
+            <li>上海</li>
+            <li>广州</li>
+            <li>北京</li>
+            <li>苏州</li>
+            <li>南京</li>
+            <li>深圳</li>
+        </ul>
+        <span style="color: gainsboro;font-size: 15px;font-weight: bold">选择城市：</span>
+    </div>
+</div>
+<!--遮罩层-->
+<div id="shade"></div>
+<!--首页购物车-->
+<div id="Home_cart_box">
+    <div class="Home_cart_box_top">
+        <span class="glyphicon glyphicon-remove"></span>
+    </div>
+    <div>
+        <span class="cart_hint"></span>
+        <span class="cart_hints">加入购物车成功！</span>
+    </div>
+    <div>
+        <span id="number_hints">购物车中共 <span id="commodity_number">0</span> 件商品|</span>
+        <span id="money_hints">商品小计 ￥<span id="subtotal_number">0</span></span>
+    </div>
+    <div>
+        <span id="To_shopping">继续购物</span>
+        <span id="To_accounts">去结算</span>
+    </div>
+</div>
+</body>
+</html>

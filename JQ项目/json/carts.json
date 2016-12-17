@@ -1,0 +1,254 @@
+[
+  {
+    "id":1,
+    "name": "新疆白金蜜瓜",
+    "price": 39.90,
+    "norms":"2个",
+    "img1":"secondary_page_imgs/left01.jpg"
+  },
+  {
+    "id":2,
+    "name": "琯溪白玉蜜柚",
+    "price": 39.90,
+    "norms":"2个",
+    "img1":"secondary_page_imgs/small2_1.jpg"
+  },
+  {
+    "id":3,
+    "name": "美国有籽红提",
+    "price": 58.00,
+    "norms":"2斤",
+    "img1":"list/left1_1.jpg"
+
+  },
+  {
+    "id":4,
+    "name": "丽江雪桃",
+    "price": 88.00,
+    "norms":"3个",
+    "img1":"Home_img/goods04 .jpg"
+  },
+  {
+    "id":5,
+    "name": "泰国椰青",
+    "ad":"甘甜唯美，唇齿留香",
+    "price": 49.90,
+    "norms":"4个",
+    "img1":"Home_img/goods05.jpg"
+  },
+  {
+    "id":6,
+    "name": "泰国山竹",
+    "ad":"下火神器，味道超甜",
+    "price": 99.00,
+    "norms":"4斤",
+    "img1":"Home_img/goods06.jpg"
+  },
+  {
+    "id":7,
+    "name": "新西兰柠檬",
+    "ad":"鲜橙靓皮 柠香清新",
+    "price": 29.00,
+    "norms":"8个",
+    "img1":"Home_img/goods07.jpg"
+  },
+  {
+    "id":8,
+    "name": "精选百香果",
+    "ad":"芬香四季，下火首选",
+    "price": 19.90,
+    "norms":"6个",
+    "img1":"Home_img/goods08.jpg"
+  },
+  {
+  "id":9,
+  "name": "进口香蕉",
+    "ad":"进口的“小黄人”",
+  "price":49.90 ,
+  "norms":"4斤",
+    "img1":"Home_img/goods09.jpg"
+ },
+  {
+    "id":10,
+    "name": "泰国金枕头榴莲(中)",
+    "ad":"金枕头榴莲，榴莲中的战斗机”",
+    "price":118.00 ,
+    "norms":"1~2个",
+    "img1":"Home_img/goods10.jpg"
+  },
+  {
+    "id":11,
+    "name": "琯溪红玉蜜柚",
+    "price":49.90,
+    "norms":"2个",
+    "img1":"Home_img/goods11.jpg"
+  },
+  {
+    "id":12,
+    "name": "秋甜脆柿",
+    "price":29.90,
+    "norms":"2斤",
+    "img1":"Home_img/goods12.jpg"
+  },
+  {
+    "id":13,
+    "name": "美国无籽青提",
+    "price":118.0,
+    "norms":"4斤",
+    "img1":"Home_img/goods13.jpg"
+  },
+  {
+    "id":14,
+    "name": "台湾文旦",
+    "price":58.00,
+    "norms":"3个",
+    "img1":"Home_img/goods14.jpg"
+  },
+  {
+  "id":15,
+   "name": "精选波姬无花果",
+   "price":29.90,
+   "norms":"4个",
+    "img1":"Home_img/goods15.jpg"
+ },
+  {
+    "id":16,
+    "name": "优选东海带鱼段",
+    "price":29.90,
+    "norms":"400g",
+    "img1":"Home_img/goods16.jpg"
+  },
+  {
+    "id":17,
+    "name": "越南巴沙鱼柳",
+    "price":23.90,
+    "norms":"300~400g",
+    "img1":"Home_img/goods17.jpg"
+  },
+  {
+    "id":18,
+    "name": "巴西精选牛腩块",
+    "price":37.80,
+    "norms":"500g",
+    "img1":"Home_img/goods18.jpg"
+  },
+  {
+    "id":19,
+    "name": "日式素鲍鱼",
+    "price":19.00,
+    "norms":"240g",
+    "img1":"Home_img/goods19.jpg"
+  },
+  {
+    "id":20,
+    "name": "新西兰小牛脊骨",
+    "price":29.90,
+    "norms":"500g",
+    "img1":"Home_img/goods20.jpg"
+  },
+  {
+    "id":21,
+      "name": "苏食童子鸡",
+      "price":29.00,
+      "norms":"1.5斤",
+    "img1":"Home_img/goods21.jpg"
+  },
+  {
+    "id":22,
+    "name": "南翔小笼包",
+    "price":9.90,
+    "norms":"180g",
+    "img1":"Home_img/goods22.jpg"
+  },
+  {
+    "id":23,
+    "name": "江西原生态散养土鸡蛋",
+    "price":29.90,
+    "norms":"10个",
+    "img1":"Home_img/goods23.jpg"
+  },
+  {
+    "id":24,
+    "name": "东海小黄鱼",
+    "price":19.90,
+    "norms":"300g",
+    "img1":"Home_img/goods24.jpg"
+  },
+  {
+    "id":25,
+    "name": "冻半壳扇贝",
+    "price":42.00,
+    "norms":"6个",
+    "img1":"Home_img/goods25.jpg"
+  },
+  {
+    "id":26,
+      "name": "福聚礼篮",
+      "price":68.00,
+      "norms":"礼篮",
+      "img1":"Home_img/goods26.jpg"
+  },
+  {
+    "id":27,
+    "name": "真心祝福水果礼篮",
+    "price":358.00,
+    "norms":"礼篮",
+    "img1":"Home_img/goods27.jpg"
+  },
+  {
+    "id":28,
+    "name": "欢乐时光水果礼篮",
+    "price":180.00,
+    "norms":"礼篮",
+    "img1":"Home_img/goods28.jpg"
+  },
+  {
+    "id":29,
+    "name": "富贵吉祥水果礼篮",
+    "price":880.00,
+    "norms":"礼篮",
+    "img1":"Home_img/goods29.jpg"
+  },
+  {
+    "id":30,
+    "name": "深情厚意水果礼篮",
+    "price":580.00,
+    "norms":"礼篮",
+    "img1":"Home_img/goods29.jpg"
+  },
+  {
+    "id":31,
+    "name": "海陆【家宴】生鲜礼盒",
+    "price":328.00,
+    "norms":"礼盒",
+    "img1":"Home_img/goods31.jpg"
+  },
+  {
+    "id":32,
+    "name": "海陆【盛宴】生鲜礼盒",
+    "price":468.00,
+    "norms":"礼盒",
+    "img1":"Home_img/goods32.jpg"
+  },
+  {
+    "id":33,
+    "name": "情真意切水果礼篮",
+    "price":238.00,
+    "norms":"礼篮",
+    "img1":"Home_img/goods33.jpg"
+  },
+  {
+    "id":34,
+    "name": "绿野仙踪礼篮",
+    "price":580.00,
+    "norms":"礼篮",
+    "img1":"Home_img/goods34.jpg"
+  },
+  {
+    "id":35,
+    "name": "低糖营养鲜果礼盒",
+    "price":118.00,
+    "norms":"礼盒",
+    "img1":"Home_img/goods35.jpg"
+  }
+]
